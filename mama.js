@@ -1,4 +1,8 @@
+let i = 1;
 
-for(let i = 1; i<=10; i++){
-    console.log(`7 *${i} = ${ 7* i}` );
+while(i< 15) {
+    if(i %2===1){
+    console.log(i);
+    }
+    i++;
 }
