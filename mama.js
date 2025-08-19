@@ -29,9 +29,38 @@
 //   console.log("Hello, I am a function");
   
 // }
-function greet(val){
-  return 0;
-}
+// function greet(val){
+//   return 0;
+// }
  
-let salam = greet(5);
-console.log(salam);
+// let salam = greet(5);
+// console.log(salam);
+
+// let multiply= (a,b)=>
+//   {
+//   return a * b;
+// }
+
+// function checkage(age){
+//   if (age <18)
+//     return " not allowed"; 
+//     return " allowed";
+// }
+
+// console.log(checkage(15)); // 
+
+// function door(key){
+
+//   key();
+//   }
+// door(function(key){
+//   console.log("I am a key");
+// });
+let age=15;
+if(age===18){
+console.log("come inside");
+}
+else{
+    console.log("go back");
+    
+}
