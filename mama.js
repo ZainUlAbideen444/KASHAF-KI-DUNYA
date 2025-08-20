@@ -70,3 +70,26 @@
     
 // }
 // gobi(1,2,3,4,5,6,7,8,9,10); 
+
+// function CheckAge(age) {
+// if (age < 18)
+// return "not allowed";
+// return "allowed";
+// }
+
+// console.log(CheckAge(20)); 
+// console.log(CheckAge(20));
+// console.log(CheckAge(20));
+
+// console.log(CheckAge(20)); 
+// console.log(CheckAge(20));
+// console.log(CheckAge(20));
+
+// console.log(CheckAge(20)); 
+// console.log(CheckAge(20));
+// console.log(CheckAge(20));
+
+
+function greet( gol(){
+    console.log("Hello, I am a function");
+})
