@@ -90,6 +90,77 @@
 // console.log(CheckAge(20));
 
 
-function greet( gol(){
-    console.log("Hello, I am a function");
-})
+// first class function 
+// function ko value ki tarah treat karna
+// let val=function value(){
+//     console.log("Hello, I am a function");
+// }
+// val();
+
+// Higher order function
+// jo return kare ek or function apne parameter ke tor par
+
+// function coco(motu){
+// return motu(a,b)
+   
+// };
+
+// coco(motu);
+
+// Pure & Impure Functions
+// aisa fnc jo bahar ki variable ko change na kare, ya usay use na kare pure function kehlata hai
+// aisa fnc jo bahar ki variable ko change kare ya usay use kare impure function kehlata hai
+
+    let a=10;
+    console.log(a);
+    function def(){
+        let b=20;
+        function ghi(){
+            let c=30;
+            console.log(a, b, c);
+        }
+        ghi(); // Call ghi inside def
+    }
+    def(); // Call def inside abc
+}
+abc(); // Call abc to run everything
+// console.log(a);
+
+
+// closure interview question
+// ak fnc jo return kare ek or fnc ko, jo apne parent scope ki variable ko access kar sake
+
+// function abcd(){
+//     let a=10;
+//     return function(){
+//         console.log(`a`, a);
+//     }
+// }
+
+// abcd();
+
+// function coco(){
+//     let val= 0;
+//     return function(){
+//         console.log(val);
+        
+//     }
+// }
+// coco()();
+
+// lexical scope
+
+// function abc(){
+//     let a=10;
+//     def();
+   
+//     function def(){
+//         let b=20;
+//         ghi();
+//         function ghi(){
+//             let c=30;
+//             console.log(a, b, c);
+//         }
+//     }
+        
+// }
