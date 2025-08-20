@@ -56,11 +56,17 @@
 // door(function(key){
 //   console.log("I am a key");
 // });
-let age=15;
-if(age===18){
-console.log("come inside");
-}
-else{
-    console.log("go back");
+// let age=15;
+// if(age===18){
+// console.log("come inside");
+// }
+// else{
+//     console.log("go back");
     
-}
+// }
+
+// function gobi(a,b,c,...val){
+//     console.log(a,b,c,val);
+    
+// }
+// gobi(1,2,3,4,5,6,7,8,9,10); 
