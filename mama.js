@@ -172,11 +172,26 @@
 // } 
 // ) ();
 
-function janu(name){
-    return function(){
-        return `Hello ${name}`;
-    }
-}
-const salam = janu( "kakau");
-console.log(salam());
+// function user(age){
+//     return function(){
+//        return `your age is ${age}`;
+//     }   
+// }
+
+// const newage = user(35);
+// console.log(newage());
+
+// function pharma(job){
+//     return function(){
+//         return `your job is ${job}`;
+//     }
+// }
+
+// const newjob = pharma( "medical rep");
+// console.log(newjob());
+
+// console.log("job is mr");
+
+
+
 
