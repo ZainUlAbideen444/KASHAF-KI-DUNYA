@@ -204,4 +204,74 @@
 //     };
 // }
 
+// Q2:- WRITE A FUNCTION THAT ALLOWS A FUNCTION TO BE CALLED ONLY ONCE
+// function once(fn){
+//     let called = false;
+//     return function(...args) {
+//         if(!called){
+//             called = true;
+//             return fn(...args)}
+//         else{
+//             console.log("already called");
+            
+//         }
+//         };
+//     }
+    
+
+// const newfunc= once(()=>
+//     console.log("hi"));    
+// newfunc();
+// newfunc();
+
+
+// discounter
+
+// function Discounter(valper){
+//     return function(price){
+//         return price - (price*valper/100);
+//     };
+// }
+
+// afterval = Discounter(20);
+// console.log(afterval(200));
+
+// LOGGER
+// function eror(pop){
+//     return function(message){
+//         console.log(`${pop}  ${message}`);
+        
+//     };
+// }
+
+// const newErr = eror("Takhta");
+// newErr("Babu g ")
+
+// function PassCheck(correctpassword){
+//     return function(password){
+//        return password === correctpassword
+//         ? "Access granted"
+//         : " wrak sha hacker";
+//     };
+// }
+
+// const check = PassCheck("zainkhan");
+// console.log(check("hack"));
+// console.log(check("zainkhan"));
+
+
+
+
+function passcheck(correct){
+    return function(pass){
+        return pass === correct
+        ? "malik"
+        : "chor"
+    }
+}
+
+const check = passcheck("zain")
+console.log(check("kashaf"));
+console.log(check("zain"));
+
 
