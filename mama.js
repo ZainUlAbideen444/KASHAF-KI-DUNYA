@@ -111,20 +111,13 @@
 // aisa fnc jo bahar ki variable ko change na kare, ya usay use na kare pure function kehlata hai
 // aisa fnc jo bahar ki variable ko change kare ya usay use kare impure function kehlata hai
 
-    let a=10;
-    console.log(a);
-    function def(){
-        let b=20;
-        function ghi(){
-            let c=30;
-            console.log(a, b, c);
-        }
-        ghi(); // Call ghi inside def
-    }
-    def(); // Call def inside abc
-}
-abc(); // Call abc to run everything
-// console.log(a);
+// let a=12;
+// function abc(){
+//     a++;
+// }
+//  abc();
+//  console.log(a);
+ 
 
 
 // closure interview question
@@ -151,16 +144,39 @@ abc(); // Call abc to run everything
 // lexical scope
 
 // function abc(){
-//     let a=10;
+//     let a="motu";
+   
+    
 //     def();
    
 //     function def(){
-//         let b=20;
+//         let b="chotu";
 //         ghi();
 //         function ghi(){
-//             let c=30;
+//             let c="Kashaf";
 //             console.log(a, b, c);
 //         }
+       
 //     }
-        
+     
 // }
+// abc();
+
+//  IIFE (Immediately Invoked Function Expression)
+// iske andar kj b likoge wo chaljaega call karne ki need nahi already called , first function then bracket
+
+// (function(){
+//     console.log("kashaf is a orange beauty");
+    
+    
+// } 
+// ) ();
+
+function janu(name){
+    return function(){
+        return `Hello ${name}`;
+    }
+}
+const salam = janu( "kakau");
+console.log(salam());
+
