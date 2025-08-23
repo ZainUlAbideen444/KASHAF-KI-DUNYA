@@ -299,7 +299,58 @@
 // console.log(arr);
 
 
-// SORT,MAP,FILTER,REDUCE, FOREACH
+// ,MAP,FILTER,REDUCE, FOR-EACH
+// FOR LOOPS:- IT IS A BASICALLY A FOR LOOP OF ARRAY WHICH RUN FOR EACH OF THE VALUE
+
+// let arr=[2,4,6,8,10];
+// arr.forEach(function(val){
+//     console.log(val-2);
+    
+// })
+
+// MAP 
+// isko tab use karna jb apko ek naya array banana hai pichle array ke data ke basis par,same member b hongy or kind of same data b
+
+// let arr = [2,4,6,8,10];
+// let newarr = arr.map(function(val){
+//     return val/2;
+// });
+
+// console.log(arr);
+// console.log(newarr);
+
+// FILTER
+// filter me naya array banaty ha but filter karke apni marzi
+
+// let arr = [1,2,3,4,5,6,7,8,9,10];
+
+// let newarr= arr.filter(function(val){
+//    if(val%3===0)
+//     return true;
+// });
+// console.log(newarr);
+
+// Reduce
+// in reduce , we reduced all values to a single value
+// acuummulator wo hai jo apni value yaad rakhta hai
+
+// let arr=[10,20,30,40,50];
+// let redu = arr.reduce (function(accumulator,val){
+//     return accumulator-val;
+// },0); 
+
+// console.log(redu);
+// console.log(arr);
+
+
+// ARRAY DESTRUCTION
+// let arr =[1,2,3,4];
+// let  [a,b, ,c] = arr;
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
 
 
 
