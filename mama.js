@@ -262,16 +262,44 @@
 
 
 
-function passcheck(correct){
-    return function(pass){
-        return pass === correct
-        ? "malik"
-        : "chor"
-    }
-}
+// function passcheck(correct){
+//     return function(pass){
+//         return pass === correct
+//         ? "malik"
+//         : "chor"
+//     }
+// }
 
-const check = passcheck("zain")
-console.log(check("kashaf"));
-console.log(check("zain"));
+// const check = passcheck("zain")
+// console.log(check("kashaf"));
+// console.log(check("zain"));
+
+
+// ARRAYY
+// its a data structure which is used to store a big data which can be added, removed, modified..
+// [1,2,3,4,5] indexed by whole number
+
+// let arr =[1,2,3,4,5];
+// let newarr = arr.reverse();
+// console.log(arr);
+// console.log(newarr);
+
+// let arr = ["banana", "apple",
+//     "mango"
+// ]
+// let sr= arr.sort();
+
+// console.log(arr);
+
+
+// let arr= [3,2,1,5,6]
+// let sr = arr.sort(function (a,b){
+//     return (b-a)
+// });
+// console.log(arr);
+
+
+// SORT,MAP,FILTER,REDUCE, FOREACH
+
 
 
