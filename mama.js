@@ -371,14 +371,14 @@
 
 // FOR IN
 
-let obj = {
-    name : "coco",
-    age : 20,
-    email : "abc@testnet.com",
-    addresses:{
-        city : "goa"
-    }
-}
+// let obj = {
+//     name : "coco",
+//     age : 20,
+//     email : "abc@testnet.com",
+//     addresses:{
+//         city : "goa"
+//     }
+// }
 
 // // for(let key in obj=>obj ka name){
 // // console.log(key,obj[key])}
@@ -402,6 +402,17 @@ let obj = {
 // console.log(obj.names);
 
 
+
+
+// let obj = {
+// a: 5,
+// b:10,
+// c:15 }
+
+// for(let key in obj){
+//     console.log(obj[key]*2);
+    
+// }
 
 
 
