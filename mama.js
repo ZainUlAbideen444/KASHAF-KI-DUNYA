@@ -351,6 +351,62 @@
 // console.log(b);
 // console.log(c);
 
+// OBJECT
+// entity (user) agar ek ho to object banate hai, lekin agar ek se zyada ho to array bnate hai.
+// object ko hum dot notation .   {.objectname}  ya bracket notation obj[];
+// deep access jab hum bohut deep jaake usko access karsake
+
+// let user ={
+//     name : "kashaf",
+//     age : " baby",
+//     smile: "cute",
+// address :{
+//     city : "gujranwala",
+// location : {
+//     lat : 23.2,
+//     lng : 74,
+// }
+// }
+// };
+
+// FOR IN
+
+let obj = {
+    name : "coco",
+    age : 20,
+    email : "abc@testnet.com",
+    addresses:{
+        city : "goa"
+    }
+}
+
+// // for(let key in obj=>obj ka name){
+// // console.log(key,obj[key])}
+
+// let obj2 = {...obj}; // spread operator
+// obj2.address.city="swat";
+
+// console.log(obj);
+// console.log(obj2);
+
+
+// deep clonning:-
+
+// let obj2 =JSON.parse(JSON.stringify(obj));
+// obj2.address.city= "lahore"
+// console.log(obj2);
+// console.log(obj);
+
+// optional chaining
+
+// console.log(obj.names);
+
+
+
+
+
+
+
 
 
 
